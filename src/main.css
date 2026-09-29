@@ -6,11 +6,11 @@
     background-color: var(
       --yt-sys-color-baseline--additive-background
     ) !important;
-  }
 
-  & img {
-    opacity: 0 !important;
-    transition: opacity 0.3s ease-in-out;
+    & img {
+      opacity: 0 !important;
+      transition: opacity 0.3s ease-in-out;
+    }
   }
 }
 
