@@ -12,6 +12,12 @@
       transition: opacity 0.3s ease-in-out;
     }
   }
+  & div.ytp-modern-videowall-still-image {
+    background-image: none !important;
+    background-color: var(
+      --yt-sys-color-baseline--additive-background
+    ) !important;
+  }
 }
 
 body.isGrayScale {
