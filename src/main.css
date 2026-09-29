@@ -1,7 +1,12 @@
-.isThumbnailHidden yt-thumbnail-view-model {
-  background-color: var(
-    --yt-sys-color-baseline--additive-background
-  ) !important;
+.isThumbnailHidden {
+  & yt-thumbnail-view-model,
+  & ytd-playlist-video-thumbnail-renderer,
+  & yt-thumbnail-view-model,
+  & ytd-thumbnail > #thumbnail:has(yt-image) {
+    background-color: var(
+      --yt-sys-color-baseline--additive-background
+    ) !important;
+  }
 
   & img {
     opacity: 0 !important;
